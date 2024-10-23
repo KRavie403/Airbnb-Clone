@@ -1,0 +1,65 @@
+# JavaScript/TypeScript
+*.js                 text diff=javascript
+*.jsx                text diff=javascript
+*.ts                 text diff=typescript
+*.tsx                text diff=typescript
+
+# JSON
+*.json               text
+*.babelrc            text
+*.eslintrc           text
+*.prettierrc         text
+
+# HTML and XML
+*.html               text
+*.xml                text
+*.md                 text
+
+# CSS and SCSS
+*.css                text
+*.scss               text
+
+# Tailwind CSS
+tailwind.config.js   text
+postcss.config.js    text
+
+# Prisma schema
+*.prisma             text
+
+# Next.js specific
+.next/               linguist-generated
+*.map                text
+
+# MongoDB
+*.json               text
+
+# Image files (binary)
+*.png                binary
+*.jpg                binary
+*.jpeg               binary
+*.gif                binary
+*.webp               binary
+*.svg                binary
+
+# Audio and Video files (binary)
+*.mp3                binary
+*.wav                binary
+*.ogg                binary
+*.mp4                binary
+*.mov                binary
+
+# Font files (binary)
+*.ttf                binary
+*.otf                binary
+
+# Compressed files (binary)
+*.zip                binary
+*.tar                binary
+*.gz                 binary
+
+# Environment files
+.env                 text
+
+# Git LFS (if needed)
+*.psd               filter=lfs diff=lfs merge=lfs -text
+*.png               filter=lfs diff=lfs merge=lfs -text
